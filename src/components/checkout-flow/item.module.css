@@ -1,0 +1,25 @@
+.item {
+  margin: 1rem 0;
+  display: flex;
+  /* border: 2px solid red; */
+  width: max-content;
+}
+
+.image img {
+  overflow: hidden;
+  width: 50%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* border: 2px solid rgb(0, 85, 255); */
+}
+
+.content span {
+  word-wrap: break-word;
+  width: min-content;
+  padding: 0.5em;
+}

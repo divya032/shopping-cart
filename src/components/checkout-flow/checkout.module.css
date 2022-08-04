@@ -1,0 +1,35 @@
+.main-section {
+  display: flex;
+  flex-direction: row;
+  margin: 3em;
+  padding: 1em;
+  /* border: 2px solid red; */
+}
+.details {
+  flex-grow: 6;
+  padding: 0 2em;
+  margin: 1em;
+  /* border: 2px solid red; */
+}
+.flow {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 2px solid rgba(225, 223, 223, 0.936);
+}
+.flow-element {
+  padding: 1em;
+}
+.cart .heading {
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(225, 223, 223, 0.936);
+  padding: 1em;
+  margin: 1em;
+}
+
+.cart {
+  background-color: rgb(229, 236, 248);
+  flex-grow: 1;
+  padding: 0 2em;
+}
