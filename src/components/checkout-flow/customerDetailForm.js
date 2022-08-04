@@ -10,7 +10,6 @@ function CustomerDetailForm({ customerDataHandler }) {
   function handleReturnShopButton() {
     return <alert>Return to Shopping Page</alert>;
   }
-  function handleNextBtn() {}
 
   function nextButtonHandler(event) {
     event.preventDefault();

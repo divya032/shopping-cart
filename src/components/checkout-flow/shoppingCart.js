@@ -1,7 +1,7 @@
 import Item from "./item";
 import classes from "./shoppingCart.module.css";
-import { useContext } from "react";
-import TotalPriceContext from "../../stores/totalPriceContext";
+// import { useContext } from "react";
+// import TotalPriceContext from "../../stores/totalPriceContext";
 
 function ShoppingCart(props) {
   function findSubTotal() {
